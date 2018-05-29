@@ -1,5 +1,5 @@
 language: generic
 script:
 - |
-  git remote add origin-wiki https://soregums:$token@github.com/test-org-ok/some-docs.wiki.git
+  git remote add origin-wiki https://$token@github.com/test-org-ok/some-docs.wiki.git
   git push origin-wiki HEAD:master
