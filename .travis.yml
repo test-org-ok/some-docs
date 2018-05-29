@@ -1,0 +1,8 @@
+script:
+- |
+  git remote add origin-wiki https://$GITHUB_API_KEY@github.com/test-org-ok/some-docs.wiki.git > /dev/null 2>&1 
+  git push origin-wiki HEAD:master > /dev/null 2>&1
+env:
+  matrix:
+  - secure: stuff_here
+  
