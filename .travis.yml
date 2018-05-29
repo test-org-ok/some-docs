@@ -1,8 +1,8 @@
 language: generic
 script:
 - |
-  git remote add origin-wiki https://$GITHUB_API_KEY@github.com/test-org-ok/some-docs.wiki.git > /dev/null 2>&1 
-  git push origin-wiki HEAD:master > /dev/null 2>&1
+  git remote add origin-wiki https://$GITHUB_API_KEY@github.com/test-org-ok/some-docs.wiki.git
+  git push origin-wiki HEAD:master
 env:
   matrix:
   -  secure: "n/Ui6zARdYjcyl/nI4RVuOfpCZsXIb9JZFGuJwDm/1h/2O6HYjPIFX3LI5Ykdm2Y97zocMltmen/AeI3o1Xu8J1peW/WWDscvIlsqgX5tZtI2YXZdFED+VbQwNhoHcs8n/mSreH1vvl1bNDJ6edfBp46zPL8gq/msh4jAWgl8R7ZEQLNSAe6P67livres8yMIvuPBUVOp8khOmb15WLLveL6A33UKWSB+siqt2WPFhKhEyfLX6ugaOHXmUZvc7KKXUg014EiPOJYK6WYBgbGwZ7Zdk34QOA8EjEJ0i+CSjN43xE5tZOBzcZmi+hIG4IMbvy9TR0F1Fl2cdynQZJmtNI8QMyMFHk5GBnlxEx3OskjrVbLMjQtaU+Y1NldyUvBtR86V7n/pIxQ2PbutaTEnvhy9OmElaJ1GuiEJwCdLS0THyj8O7vHaLS8KVY/9N+EvkgO85Qxf3k5NAItks8XC+EqKWDTWqUgX6L0jZspCth5wx7n51rzpaxHmS5y0nR5N5UFX4pHsqNmMPlfI8usWZZp9JcsAIj8tod1GcrxlAQwbZMEZcW5oobIl/eX4bh/0610uftjR7I4K52wDZISqZr1xPfh7YABWfjxIo51WphswzFlswAIVJrRnLl7emApk+zyWlmFQAAv8pJhB2OaSzX9bfrUk2iPrntQJ4mlH78="
