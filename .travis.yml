@@ -1,7 +1,5 @@
 language: generic
 script:
 - |
-  git remote add origin-wiki https://soregums:$GITHUB_API_KEY@github.com/test-org-ok/some-docs.wiki.git
+  git remote add origin-wiki https://soregums:38a53083709d908d3f94b9c6dc55f18bdefad83f@github.com/test-org-ok/some-docs.wiki.git
   git push origin-wiki HEAD:master
-env:
-  secure: "xvl7yTYLSu9C4O0k7z84kA9DurJWCTr7x/1+LszDWetbZwFLu43XFzCyxWqWZkIH8R8OOiWze3Ofv0h5MIU1OdcWWeGkFF4yAEbXQ4FomSbdP3ww/ILE8oQB1o0v+a9yeRVqf2pwsH/9LFt4qfW3BbYc7mLTMX5i7jHVmR9w1GleWUCPICkt0K/okcXEvrDIDH5ba0g5b00ASihfSgCEB8ojJMF6FqfjdRqHFmGJKOLUwhGhQJqQEft5F5I8znTwM4OHxjjv+9peTD17ciVQOFCmeRFNZYZmn03dL2vEzG9X+ADakkuzXyH+iyO0luwnzicOIdhldAbgGmO1cnp9P3HWgTJgTTXV2hXvAhs0oUymD8J3y5ARm1+6X2U95X+Wj34Z0Zg4boOyq/BTK8tpYItZstdbMOkp6M5sFOiqMdE10E0MZz4Qrr3T601fsoqnt6AxaLwFlLE35v4d3JR+IS9yKHzuvKzs/GU4Ky9PN73wn+pfdjgmrXDW5jO+XTk1EfembZvz6jQ95BZFhuZy0SgiVxJSmRGOkdZJf5eRdCwyFAxiEN3iyCWXhFPjhgwoU64d8FbfOv7I4KMJfMGkDPRqwu3FSlL72at1OkLN1ps9EA9MOdnsHw5VTa0k2fs4Xs6KCasaqnOqLznq7cKBwEjoppTAGdjbFpOe/o7R8Lw="
